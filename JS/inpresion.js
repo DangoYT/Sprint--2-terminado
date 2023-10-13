@@ -34,11 +34,11 @@ year.addEventListener("input", function () {
 
 /* ----------------------------------------------------------------------------- */
 
-let culitocvc = document.getElementById("culitocvc")
-let culito = document.querySelector (".culito")
+let input_cvc = document.getElementById("input_cvc")
+let span_cvc2 = document.querySelector (".span_cvc2")
 
-culitocvc.addEventListener("input", function (){
-  culito.textContent = culitocvc.value;
+input_cvc.addEventListener("input", function (){
+  span_cvc2.textContent = input_cvc.value;
 });
 
 /* ----------------------------------------------------------------------------- */

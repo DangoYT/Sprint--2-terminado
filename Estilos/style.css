@@ -57,14 +57,14 @@ body {
   width: 100%;
   box-sizing: border-box;
   margin-top: 8px;
-  margin-bottom: 23px;
+  margin-bottom: 8px;
 }
 
 .style_input2 {
   border-radius: 10px;
   height: 40px;
   width: 75px;
-  margin-top: 10px;
+  margin-top: 12px;
   margin-right: 4px;
   border: 1px solid;
 }
@@ -75,6 +75,21 @@ body {
   border: 1px solid;
   width: 180.5px;
   margin-left: 14px;
+}
+
+.laber_date {
+  margin-top: 10px;
+}
+
+.span_errorMonth {
+  margin-right: 40px;
+}
+
+.span_errorYear {
+  margin-right: 60px;
+}
+
+.span_errorNumero {
 }
 
 .span_cvc {

@@ -209,6 +209,7 @@ body {
     transform: scale(0.64);
     top: 82px;
     left: -65px;
+    z-index: 1;
   }
 
   .tarjeta_reverso {
@@ -216,6 +217,7 @@ body {
     transform: scale(0.64);
     top: -12px;
     left: -8px;
+    z-index: 0;
   }
 
   .formulario {

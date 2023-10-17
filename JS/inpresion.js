@@ -1,5 +1,5 @@
-var input_nombre = document.getElementById("input_nombre");
-var span_nombreTarjeta = document.querySelector(".span_nombreTarjeta");
+let input_nombre = document.getElementById("input_nombre");
+let span_nombreTarjeta = document.querySelector(".span_nombreTarjeta");
 
 input_nombre.addEventListener("input", function () {
   span_nombreTarjeta.textContent = input_nombre.value;
